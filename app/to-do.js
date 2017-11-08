@@ -8,7 +8,14 @@ var Task = /** @class */ (function () {
 }());
 var tasks = [];
 tasks.push(new Task('Do the dishes.', 'Medium'));
+tasks.push(new Task('Buy Choclate', 'Low'));
+tasks.push(new Task('Do laundry', 'High'));
 console.log(tasks);
+console.log('yo new stuff below');
+for (var _i = 0, tasks_1 = tasks; _i < tasks_1.length; _i++) {
+    var elementOfTasks = tasks_1[_i];
+    console.log(elementOfTasks);
+}
 // refactor class to set done to false in class declaration not instantiation of object of this class
 // class Task {
 //   done: boolean;

@@ -6,7 +6,13 @@ class Task {
 
 var tasks: Task[] = []
 tasks.push(new Task('Do the dishes.', 'Medium'));
+tasks.push(new Task('Buy Choclate', 'Low'));
+tasks.push(new Task('Do laundry', 'High'));
 console.log(tasks);
+console.log('yo new stuff below');
+for(var elementOfTasks of tasks) {
+  console.log(elementOfTasks)
+}
 
 // refactor class to set done to false in class declaration not instantiation of object of this class
 // class Task {
